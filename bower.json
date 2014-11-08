@@ -1,0 +1,24 @@
+{
+  "name": "pixeden-stroke-7-icon",
+  "version": "1.1.0",
+  "authors": [
+    "pixeden.com"
+  ],
+  "keywords": [
+    "icon",
+    "icon",
+    "font",
+    "thin",
+    "vector",
+    "retina",
+    "stroke"
+  ],
+  "homepage": "http://www.pixeden.com/icon-fonts/stroke-7-icon-font-set",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
