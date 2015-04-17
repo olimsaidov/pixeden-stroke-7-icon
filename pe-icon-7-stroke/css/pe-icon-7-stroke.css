@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'Pe-icon-7-stroke';
-	src:url('../fonts/Pe-icon-7-stroke.eot?-2irksn');
-	src:url('../fonts/Pe-icon-7-stroke.eot?#iefix-2irksn') format('embedded-opentype'),
-		url('../fonts/Pe-icon-7-stroke.woff?-2irksn') format('woff'),
-		url('../fonts/Pe-icon-7-stroke.ttf?-2irksn') format('truetype'),
-		url('../fonts/Pe-icon-7-stroke.svg?-2irksn#Pe-icon-7-stroke') format('svg');
+	src:url('../fonts/Pe-icon-7-stroke.eot?d7yf1v');
+	src:url('../fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v') format('embedded-opentype'),
+		url('../fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+		url('../fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+		url('../fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -24,6 +24,102 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.pe-7s-album:before {
+	content: "\e6aa";
+}
+.pe-7s-arc:before {
+	content: "\e6ab";
+}
+.pe-7s-back-2:before {
+	content: "\e6ac";
+}
+.pe-7s-bandaid:before {
+	content: "\e6ad";
+}
+.pe-7s-car:before {
+	content: "\e6ae";
+}
+.pe-7s-diamond:before {
+	content: "\e6af";
+}
+.pe-7s-door-lock:before {
+	content: "\e6b0";
+}
+.pe-7s-eyedropper:before {
+	content: "\e6b1";
+}
+.pe-7s-female:before {
+	content: "\e6b2";
+}
+.pe-7s-gym:before {
+	content: "\e6b3";
+}
+.pe-7s-hammer:before {
+	content: "\e6b4";
+}
+.pe-7s-headphones:before {
+	content: "\e6b5";
+}
+.pe-7s-helm:before {
+	content: "\e6b6";
+}
+.pe-7s-hourglass:before {
+	content: "\e6b7";
+}
+.pe-7s-leaf:before {
+	content: "\e6b8";
+}
+.pe-7s-magic-wand:before {
+	content: "\e6b9";
+}
+.pe-7s-male:before {
+	content: "\e6ba";
+}
+.pe-7s-map-2:before {
+	content: "\e6bb";
+}
+.pe-7s-next-2:before {
+	content: "\e6bc";
+}
+.pe-7s-paint-bucket:before {
+	content: "\e6bd";
+}
+.pe-7s-pendrive:before {
+	content: "\e6be";
+}
+.pe-7s-photo:before {
+	content: "\e6bf";
+}
+.pe-7s-piggy:before {
+	content: "\e6c0";
+}
+.pe-7s-plugin:before {
+	content: "\e6c1";
+}
+.pe-7s-refresh-2:before {
+	content: "\e6c2";
+}
+.pe-7s-rocket:before {
+	content: "\e6c3";
+}
+.pe-7s-settings:before {
+	content: "\e6c4";
+}
+.pe-7s-shield:before {
+	content: "\e6c5";
+}
+.pe-7s-smile:before {
+	content: "\e6c6";
+}
+.pe-7s-usb:before {
+	content: "\e6c7";
+}
+.pe-7s-vector:before {
+	content: "\e6c8";
+}
+.pe-7s-wine:before {
+	content: "\e6c9";
+}
 .pe-7s-cloud-upload:before {
 	content: "\e68a";
 }
