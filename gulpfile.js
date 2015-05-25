@@ -24,6 +24,14 @@ gulp.task('sass', function() {
   .pipe(gulp.dest(path.dist));
 });
 
+gulp.task('minify-css', function() {
+  return gulp.src(path.dist + '/' + fontName + '.css')
+  .pipe(plumber())
+  .pipe(rename({ suffix: '.min'} ))
+  .pipe(minifycss())
+  .pipe(gulp.dest(path.dist));
+});
+
 gulp.task('watch', function() {
   gulp.watch(
     [path.sass + '/*.scss'],
