@@ -3,6 +3,7 @@ var sass = require('gulp-sass');
 var minifycss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var plumber = require('gulp-plumber');
+var autoprefixer = require('gulp-autoprefixer');
 var path = {
   assets: 'pe-icon-7-stroke',
   get sass() {
@@ -21,6 +22,10 @@ gulp.task('sass', function() {
   return gulp.src(path.sass + '/' + fontName + '.scss')
   .pipe(plumber())
   .pipe(sass())
+  .pipe(autoprefixer(
+    [ 'last 15 versions', '> 1%', 'ie 8', 'ie 7' ],
+    { cascade: true }
+  ))
   .pipe(gulp.dest(path.dist));
 });
 
