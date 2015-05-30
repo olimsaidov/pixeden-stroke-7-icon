@@ -1,9 +1,6 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
-var minifycss = require('gulp-minify-css');
-var rename = require('gulp-rename');
-var plumber = require('gulp-plumber');
-var autoprefixer = require('gulp-autoprefixer');
+var plugins = require('gulp-load-plugins')();
+var del = require('del');
 var path = {
   assets: 'pe-icon-7-stroke',
   get sass() {
@@ -18,23 +15,31 @@ var path = {
 };
 var fontName = 'pe-icon-7-stroke';
 
+gulp.task('clean', function(cb) {
+  del([path.dist], cb);
+});
+
 gulp.task('sass', function() {
   return gulp.src(path.sass + '/' + fontName + '.scss')
-  .pipe(plumber())
-  .pipe(sass())
-  .pipe(autoprefixer(
+  .pipe(plugins.plumber())
+  .pipe(plugins.sass())
+  .pipe(plugins.autoprefixer(
     [ 'last 15 versions', '> 1%', 'ie 8', 'ie 7' ],
     { cascade: true }
   ))
   .pipe(gulp.dest(path.dist));
 });
 
-gulp.task('minify-css', function() {
+gulp.task('minify-css', ['sass'], function() {
   return gulp.src(path.dist + '/' + fontName + '.css')
-  .pipe(plumber())
-  .pipe(rename({ suffix: '.min'} ))
-  .pipe(minifycss())
+  .pipe(plugins.plumber())
+  .pipe(plugins.rename({ suffix: '.min'} ))
+  .pipe(plugins.minifyCss())
   .pipe(gulp.dest(path.dist));
+});
+
+gulp.task('build', ['sass', 'minify-css'], function() {
+
 });
 
 gulp.task('watch', function() {
@@ -44,6 +49,6 @@ gulp.task('watch', function() {
   );
 });
 
-gulp.task('default', function() {
+gulp.task('default', ['build'], function() {
 
 });
