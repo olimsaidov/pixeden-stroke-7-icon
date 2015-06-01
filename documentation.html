@@ -12,8 +12,7 @@
 	<link href="assets/docs/style.css" rel="stylesheet" />
 
 	<!-- Icon font CSS -->
-	<link href="pe-icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet" />
-	<link href="pe-icon-7-stroke/css/helper.css" rel="stylesheet" />
+	<link href="pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css" rel="stylesheet" />
 
 </head>
 <body>
@@ -36,13 +35,10 @@
 		<section id="default-css">
 			<h2 class="page-header">Add our icon font <small>to your website</small></h2>
 			<ol>
-				<li>Copy the entire <code>pe-icon-7-stroke</code> directory into your project.</li>
+				<li>Install icon pack with bower <code>bower install pixeden-stroke-7-icon</code> or npm <code>npm install pixeden-stroke-7-icon</code></li>
 				<li>
-					In the <code>&lt;head&gt;</code> of your html, reference the location to our icon font CSS: <span class="italic">pe-icon-7-stroke.css</span> and if needed helper CSS: <span class="italic">helper.css</span>.
-<pre class="language-markup"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/pe-icon-7-stroke/css/pe-icon-7-stroke.css&quot;&gt;
-
-&lt;!-- Optional - Adds useful class to manipulate icon font display --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/pe-icon-7-stroke/css/helper.css&quot;&gt;</code></pre>
+					In the <code>&lt;head&gt;</code> of your html, reference the location to our icon font CSS: <code>pe-icon-7-stroke.css</code> or minified <code>pe-icon-7-stroke.min.css</code> .
+<pre class="language-markup"><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;path/to/pe-icon-7-stroke/dist/pe-icon-7-stroke.css&quot;&gt;</code></pre>
 				</li>
 			</ol>
 		</section>
@@ -63,14 +59,6 @@
 					<div class="alert alert-success"><i class="pe-lg pe-7s-info"></i> icon unicode is added with CSS and the pseudo-class :before.</div>
 				</div>
 			</div>
-		</section>
-
-		<section id="icomoon">
-		<h2 class="page-header">Compatible with Icomoon <small>font creator tool</small></h2>
-    <p>The IcoMoon app lets you build and use your own icon sets: <a target="_blank" href="http://icomoon.io/app/">IcoMoon App</a>.<br>
-		You can import <code>icomoon/*selection.json*</code> in the IcoMoon app using the *Import Icons* button (or via Main Menu > Manage Projects) to retrieve this specific icon font.<br>
-    This way you can mix and match our icon font with other fonts or select only the icons you need and generate a new font.
-    </p>
 		</section>
 
 		<section id="helper">
