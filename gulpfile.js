@@ -1,3 +1,4 @@
+/*jslint node: true */
 'use strict';
 var gulp = require('gulp');
 var plugins = require('gulp-load-plugins')();
