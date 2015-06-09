@@ -6,13 +6,13 @@ var del = require('del');
 var path = {
   assets: 'pe-icon-7-stroke',
   get sass() {
-    return this.assets + '/scss'
+    return this.assets + '/scss';
   },
   get css() {
-    return this.assets + '/css'
+    return this.assets + '/css';
   },
   get dist() {
-    return this.assets + '/dist'
+    return this.assets + '/dist';
   }
 };
 var fontName = 'pe-icon-7-stroke';
@@ -50,6 +50,10 @@ gulp.task('watch', function() {
     ['sass']
   );
 });
+
+gulp.task('generate', plugins.shell.task([
+  'node lib'
+]));
 
 gulp.task('default', ['build'], function() {
 
