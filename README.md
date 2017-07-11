@@ -4,11 +4,11 @@ This is a complete set of 202 thin stroke icons inspired by iOS 7. Those retina 
 
 ###Demo
 
-Open [reference](http://olimsaidov.js.org/pixeden-stroke-7-icon/reference.html) to see a list of all the glyphs in the icon font.
+Open [reference](http://themes-pixeden.com/font-demos/7-stroke/index.html) to see a list of all the glyphs in the icon font.
 
 ###Docs
 
-Open [documentation](http://olimsaidov.js.org/pixeden-stroke-7-icon/documentation.html) for details on how to use the icon font.
+Open [documentation](http://themes-pixeden.com/font-demos/7-stroke/documentation.html) for details on how to use the icon font.
 
 ###Features
 
