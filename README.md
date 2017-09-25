@@ -1,16 +1,20 @@
-#A custom @font-face icon font with scalable vector icons.
+A custom @font-face icon font with scalable vector icons.
+===
 
 This is a complete set of 202 thin stroke icons inspired by iOS 7. Those retina ready icons have a very modern style that will beautifully complement any project.
 
-###Demo
+Demo
+---
 
 Open [reference](http://themes-pixeden.com/font-demos/7-stroke/index.html) to see a list of all the glyphs in the icon font.
 
-###Docs
+Docs
+---
 
 Open [documentation](http://themes-pixeden.com/font-demos/7-stroke/documentation.html) for details on how to use the icon font.
 
-###Features
+Features
+---
 
  - **Scalable vector.** Our icons look crisp at any size and will shine in any high-resolution displays.
 
@@ -22,7 +26,8 @@ Open [documentation](http://themes-pixeden.com/font-demos/7-stroke/documentation
  - **Create your own.** You can import this icon font with a .json file into IcoMoon App font generator to mix and match with other fonts or
    select only the icons you need and generate a new font.
 
-###Changelog
+Changelog
+---
 
 **Update v1.2.0 - 11/28/14**
 
@@ -51,7 +56,8 @@ Open [documentation](http://themes-pixeden.com/font-demos/7-stroke/documentation
 
  - released
 
-###License
+License
+---
 
 All our resources are royalty free for use in both personal and commercial projects.
 
