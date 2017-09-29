@@ -73,3 +73,6 @@ If you would like to share one of our resource you can do so making a link to th
 
 PS. Those terms might change as we update our license on our website, please be sure to check the latest license terms on our website to avoid any misuse of our resources.
 
+<a target='_blank' rel='nofollow' href='https://app.codesponsor.io/link/FqeoV9c8sNMMQofhQQQJn5yW/olimsaidov/pixeden-stroke-7-icon'>
+  <img alt='Sponsor' width='888' height='68' src='https://app.codesponsor.io/embed/FqeoV9c8sNMMQofhQQQJn5yW/olimsaidov/pixeden-stroke-7-icon.svg' />
+</a>
